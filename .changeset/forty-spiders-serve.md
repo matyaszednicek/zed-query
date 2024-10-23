@@ -1,5 +1,0 @@
----
-"zed-query": minor
----
-
-Init
