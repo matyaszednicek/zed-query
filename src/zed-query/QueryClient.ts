@@ -1,4 +1,4 @@
-import { createQuery, Query, QueryData, QueryOptions } from "./createQuery";
+import { Query, QueryData, QueryOptions } from "./Query";
 
 export class QueryClient {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -17,7 +17,7 @@ export class QueryClient {
       (q) => JSON.stringify(q.queryKey) === queryHash,
     );
     if (!query) {
-      const newQuery = createQuery<TData>({ queryKey, queryFn });
+      const newQuery = new Query<TData>({ queryKey, queryFn });
       this.queries.push(newQuery);
       return newQuery;
     }
