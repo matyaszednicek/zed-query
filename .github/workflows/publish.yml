@@ -28,3 +28,5 @@ jobs:
         uses: changesets/action@v1
         with:
           publish: npm run build:lib
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
