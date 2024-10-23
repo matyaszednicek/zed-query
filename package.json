@@ -16,7 +16,8 @@
     "build:lib": "tsup ./src/zed-query/index.ts --tsconfig tsconfig.app.json --format cjs,esm --dts",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "release": "npm run build:lib && changeset publish"
   },
   "dependencies": {
     "react": "^18.3.1",
