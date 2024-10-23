@@ -1,6 +1,10 @@
 {
   "name": "zed-query",
   "license": "MIT",
+  "author": {
+    "name": "Matyas Zednicek",
+    "email": "matyas.zednicek@gmail.com"
+  },
   "private": false,
   "version": "0.1.0",
   "type": "module",
