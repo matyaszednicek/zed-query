@@ -1,5 +1,11 @@
 # zed-query
 
+## 0.2.1
+
+### Patch Changes
+
+- 0121ed4: pipeline edit & changeset test
+
 ## 0.2.0
 
 ### Minor Changes
