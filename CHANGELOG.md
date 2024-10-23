@@ -1,5 +1,11 @@
 # zed-query
 
+## 0.2.2
+
+### Patch Changes
+
+- 2ac69b4: changeset config updated
+
 ## 0.2.1
 
 ### Patch Changes
