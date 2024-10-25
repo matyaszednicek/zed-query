@@ -1,5 +1,11 @@
 # zed-query
 
+## 0.3.0
+
+### Minor Changes
+
+- 2ad4e50: folder restructure
+
 ## 0.2.2
 
 ### Patch Changes
