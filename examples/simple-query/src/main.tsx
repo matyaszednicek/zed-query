@@ -1,9 +1,9 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
+
 import "./index.css";
 import App from "./App.tsx";
-import { QueryClient } from "./zed-query/QueryClient.ts";
-import { QueryClientProvider } from "./zed-query/QueryClientProvider.tsx";
+import { QueryClient, QueryClientProvider } from "zed-query";
 
 const queryClient = new QueryClient();
 

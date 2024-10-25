@@ -1,6 +1,4 @@
-import "./App.css";
-
-import { useQuery } from "./zed-query";
+import { useQuery } from "zed-query";
 
 type Post = { title: string; likes: number };
 
@@ -31,7 +29,7 @@ function App() {
 
   return (
     <>
-      <div className="w-full flex flex-col space-y-4 text-left">
+      <div className="flex flex-col w-full space-y-4 text-left">
         <p>Posts:</p>
         {isFetching && (
           <p>{status === "pending" ? "Loading..." : "Refetching..."}</p>
