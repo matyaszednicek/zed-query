@@ -1,5 +1,9 @@
 ## Zed Query - React query library
 
+I create the Zed libraries to deepen my understanding of the inner workings of libraries such as _react-query_ or _react-hook-form_.
+
+---
+
 Simple typescript library for handling react queries.
 
 ### Install
